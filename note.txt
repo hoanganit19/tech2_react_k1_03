@@ -1,0 +1,17 @@
+Bài tập thực hành 
+
+1. Tạo Component Login, Component Dashboard
+
+2. Xử lý Login theo như API đã gửi
+
+3. Login thành công => Hiển thị Component Dashboard
+
+4. Lần sau truy cập => Tự động kiểm tra trạng thái login => Gọi component Login hoặc Dashboard theo trạng thái
+
+5. Lấy dữ liệu login và hiển thị sang bên Dashboard
+
+Cách làm: 
+
+- Bước 1: Viết component chỉ xử lý login => Áp dụng render props
+
+- Bước 2: Viết component chỉ xử lý trích xuất thông tin user theo userId
