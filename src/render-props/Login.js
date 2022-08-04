@@ -1,7 +1,8 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Color from "../hoc/Color";
 
-export default class Login extends React.Component {
+class Login extends React.Component {
   constructor(props) {
     super(props);
 
@@ -88,6 +89,7 @@ export default class Login extends React.Component {
                     className="form-control"
                     placeholder="Email..."
                     onChange={this.changeValue}
+                    style={this.props.myStyle}
                   />
                 </div>
 
@@ -99,6 +101,7 @@ export default class Login extends React.Component {
                     className="form-control"
                     placeholder="Password..."
                     onChange={this.changeValue}
+                    style={this.props.myStyle}
                   />
                 </div>
 
@@ -113,3 +116,7 @@ export default class Login extends React.Component {
     );
   }
 }
+
+export default Color(Login, {
+  border: '1px solid red'
+})

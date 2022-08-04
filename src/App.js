@@ -2,9 +2,11 @@ import logo from "./logo.svg";
 import "./App.css";
 import { Tech2 } from "./render-props/Tech2";
 import Counter01 from "./render-props/Counter01";
-import Counter from "./render-props/Counter";
+// import Counter from "./render-props/Counter";
 import Login from "./render-props/Login";
 import Layout from "./Layout";
+import Color from "./hoc/Color";
+import Counter from "./hoc/Counter";
 
 function App() {
   return (
@@ -41,7 +43,8 @@ function App() {
         }}
       /> */}
       {/* <Login /> */}
-      <Layout />
+      {/* <Layout /> */}
+      <Counter />
     </>
   );
 }

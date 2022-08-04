@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Header from "./Header";
+import Color from "../hoc/Color";
 
 export class Dasboard extends Component {
 
@@ -19,4 +20,4 @@ export class Dasboard extends Component {
   }
 }
 
-export default Dasboard;
+export default Color(Dasboard);
