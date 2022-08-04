@@ -4,6 +4,7 @@ import { Tech2 } from "./render-props/Tech2";
 import Counter01 from "./render-props/Counter01";
 import Counter from "./render-props/Counter";
 import Login from "./render-props/Login";
+import Layout from "./Layout";
 
 function App() {
   return (
@@ -39,7 +40,8 @@ function App() {
           );
         }}
       /> */}
-      <Login />
+      {/* <Login /> */}
+      <Layout />
     </>
   );
 }
